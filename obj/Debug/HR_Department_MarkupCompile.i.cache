@@ -12,7 +12,11 @@ DEBUG;TRACE
 D:\My_data\Stady23\C\MainWork\HR_Department\App.xaml
 15-1304071777
 
+<<<<<<< HEAD
 362059736366
+=======
+37-675424002
+>>>>>>> Dev
 161909996929
 View\AnyMessage\MessageNotification.xaml;View\AnyMessage\SupportWindowForAdd.xaml;View\AnyMessage\SupportWindowForEdit.xaml;View\MainWindow.xaml;View\WindowAdd\AddDecree.xaml;View\WindowAdd\AddDepartment.xaml;View\WindowAdd\AddPerson.xaml;View\WindowAdd\AddPassport.xaml;View\WindowAdd\AddWorkBook.xaml;View\WindowEdit\EditDepartment.xaml;View\WindowEdit\EditPerson.xaml;View\WindowEdit\EditPosition.xaml;View\WindowRemove\RemoveDecree.xaml;View\WindowRemove\RemoveDepartment.xaml;View\WindowRemove\RemoveEmployee.xaml;
 

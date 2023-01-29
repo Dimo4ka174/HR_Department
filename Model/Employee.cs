@@ -8,20 +8,19 @@ namespace HR_Department.Model
 {
     public class Employee
     {
+        //TODO: Разобраться нужны ли поля id для каждой связи?
         //сотрудник
-        public int Id { get; set; }                     //Id сотрудника
-        public int DepartmentId { get; set; }           //Id его кафедры
-        public int HR_DepartmentId { get; set; }        //Id кадров
-        public int AccountingId { get; set; }           //Id Бухгалтерии
-        public int WorkBookId { get; set; }             //Id трудовой книги
-        public int PassportId { get; set; }             //Id паспорта
+        public long Id { get; set; }                     //Id сотрудника
+        public long DepartmentId { get; set; }           //Id его кафедры
+        public long HR_DepartmentId { get; set; }        //Id кадров
+        public long AccountingId { get; set; }           //Id Бухгалтерии
+        public long WorkBookId { get; set; }             //Id трудовой книги
+        public long PassportId { get; set; }             //Id паспорта
         public virtual Department Department { get; set; }      
         public virtual HR_Department HR_Department { get; set; }
         public virtual Accounting Accounting { get; set; }            
         public virtual WorkBook WorkBook { get; set; }
         public virtual Passport Passport { get; set; }
-        public string Position { get; set; }    //Должность
-        public string Rank { get; set; }        //Степень
-        public string Subject { get; set; }     //Предмет 
+        public string Subject { get; set; }             //Предмет 
     }
 }
