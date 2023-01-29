@@ -9,9 +9,9 @@ namespace HR_Department.Model
     public class Department
     {
         //кафедра
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Name { get; set; }            //Название кафедры
         public string Specialization { get; set; }  //Специальность кафедры
-        public virtual List<Employee> Employees { get; set; }//Лист сотрудников
+        public virtual List<Employee> Employees { get; set; }//Лист сотрудников связь 1 к М
     }
 }

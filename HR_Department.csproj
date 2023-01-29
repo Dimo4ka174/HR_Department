@@ -70,6 +70,7 @@
       <DependentUpon>202206070651536_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\EmployeeContext.cs" />
     <Compile Include="Model\WorkWithData\CreateData.cs" />
     <Compile Include="Model\WorkWithData\EditData.cs" />
     <Compile Include="Model\WorkWithData\OtherOperationsData.cs" />
