@@ -8,5 +8,6 @@ namespace HR_Department.ViewModel
 {
     internal class DataManagerVM
     {
+        Console.WriteLine("Changes");
     }
 }
